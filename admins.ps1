@@ -17,6 +17,6 @@ foreach ($computer in $computerList) {
             Write-Host "$groupName es miembro de $computer\Administradores"
         }
     } catch {
-        Write-Warning "No se pudo consultar $computer: $_"
+        Write-Warning "No se pudo consultar $computer"
     }
 }
